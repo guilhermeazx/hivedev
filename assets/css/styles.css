@@ -143,14 +143,6 @@ sup {
   vertical-align: baseline;
 }
 
-sub {
-  bottom: -.25em;
-}
-
-sup {
-  top: -.5em;
-}
-
 a {
   color: var(--orange-hive);
   text-decoration: none;
@@ -199,22 +191,12 @@ img {
   border-style: none;
 }
 
-svg {
-  overflow: hidden;
-  vertical-align: middle;
-}
 
 table {
   border-collapse: collapse;
 }
 
-caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  color: #6c757d;
-  text-align: left;
-  caption-side: bottom;
-}
+
 
 th {
   text-align: inherit;
@@ -306,26 +288,7 @@ fieldset {
   border: 0;
 }
 
-legend {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
-  line-height: inherit;
-  color: inherit;
-  white-space: normal;
-}
 
-progress {
-  vertical-align: baseline;
-}
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
 
 [type="search"] {
   outline-offset: -2px;
