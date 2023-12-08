@@ -161,7 +161,7 @@
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src="assets/imgs/homem.png" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/imgs/leo.png" alt="" class="img-thumbnail mb-4">
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h6 class="title">Leornado</h6>
@@ -177,7 +177,7 @@
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src= "assets/imgs/homem.png"  alt="" class="img-thumbnail mb-4">
+                    <img src= "assets/imgs/beca.png"  alt="" class="img-thumbnail mb-4">
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h6 class="title">Rebeca</h6>
@@ -221,71 +221,70 @@
     <!-- portfolios -->
     <section id="work" class="section">
         <div class="container text-center">
-          
             <h6 class="section-title mb-4">Portfólios</h6>
-            
-
-            <div class="row">
-                <div class="col-sm-4">
+               <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets/imgs/1.jpg" alt="">
+                        <img src="assets/imgs/6.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>dsda</h5>
-                                <a href=""><i class="ti-zoom-in"></i></a>
+                                <h5>Rave Party</h5>
+                                <a href="#" class="zoom-in" onclick="openModal('assets/imgs/6.jpg')"><i class="ti-zoom-in"></i></a>
                                 
                             </div>  
                         </div>
                     </div>
                     <div class="img-wrapper">
-                        <img src="assets/imgs/1.jpg" alt="">
+                        <img src="assets/imgs/9.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
+                                <h5>Compaz</h5>
                                 
-                                <a href=""><i class="ti-zoom-in"></i></a>
-                                
+                                <a href="#" class="zoom-in" onclick="openModal('assets/imgs/9.jpg')"><i class="ti-zoom-in"></i></a>
                             </div>                              
                         </div>
                     </div>                  
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-md-3 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets/imgs/1.jpg" alt="">
+                        <img src="assets/imgs/5.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                               
-                                <a href=""><i class="ti-zoom-in"></i></a>
+                                <h5>Barber Shop</h5>
                                 
+                                <a href="#" class="zoom-in" onclick="openModal('assets/imgs/5.jpg')"><i class="ti-zoom-in"></i></a>
                             </div>  
                         </div>
                     </div>
                     <div class="img-wrapper">
-                        <img src="assets/imgs/1.jpg" alt="">
+                        <img src="assets/imgs/3.jpg" alt="">
                         <div class="overlay">
-                            <div class="overlay-infos">                               
-                                <a href=""><i class="ti-zoom-in"></i></a>
+                            <div class="overlay-infos"> 
+                                <h5>Minalist</h5>                              
+                             
+                                <a href="#" class="zoom-in" onclick="openModal('assets/imgs/3.jpg')"><i class="ti-zoom-in"></i></a>
                             </div>                              
                         </div>
                     </div>                  
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-md-3 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets/imgs/1.jpg" alt="">
+                        <img src="assets/imgs/4.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
+                                <h5>Fashion Business</h5>
                                 
-                                <a href=""><i class="ti-zoom-in"></i></a>
-                                
+                                <a href="#" class="zoom-in" onclick="openModal('assets/imgs/4.jpg')"><i class="ti-zoom-in"></i></a>
                             </div>  
                         </div>
                     </div>
                     <div class="img-wrapper">
-                        <img src="assets/imgs/1.jpg" alt="">
+                        <img src="assets/imgs/7.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                
-                                <a href=""><i class="ti-zoom-in"></i></a>
-                                
+                                <h5>Beverage</h5>
+                            
+                                <a href="#" class="zoom-in" onclick="openModal('assets/imgs/7.jpg')"><i class="ti-zoom-in"></i></a>
                             </div>                              
                         </div>
                     </div>                  
@@ -295,7 +294,12 @@
         </div>
     </section>    
     <!--  end portfolios -->
-
+    <!-- Modal  -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
     <!-- contact -->
     <section id="contact" class="position-relative section">
         <div class="container text-center">
