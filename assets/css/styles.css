@@ -5063,12 +5063,12 @@ pre {
 }
 
 .header .container .img-holder img {
-  width: 83%;
+  width: 77%;
   max-width: 980px;
   -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
           filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
   margin-left: auto;
-  margin-right: -10rem;
+  margin-right: -5rem;
 }
 
 @media (max-width: 991.98px) {
@@ -5291,4 +5291,46 @@ pre {
 
 .close:hover {
   color: #bbb;
+}
+.container_team{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card_team{
+  width: 290px;
+  height: 400px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: var(--white); 
+  box-shadow: 1px black;
+}
+
+.img_team{
+  display: flex;
+  justify-content: center;
+}
+.team{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid var(--light-orange-hive) !important
+}
+.text_main{
+  text-align:center;
+  font-weight: 600;
+  font-size: 25px ;
+  color: var(--black);
+  font-family: 'Questial',sans-serif;
+  margin-top: 15px;
+}
+.desc{
+  font-family: 'Questial',sans-serif;
+  color: var(--dark);
+  font-weight: 200;
+  text-align: center;
+  font-size: 15px;
 }
